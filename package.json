@@ -1,0 +1,14 @@
+{
+  "name": "fitpulse-app",
+  "version": "1.0.0",
+  "description": "FitPulse - Premium Fitness Tracking App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "install-and-start": "npm install && node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.2"
+  }
+}
